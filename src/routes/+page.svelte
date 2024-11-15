@@ -75,11 +75,12 @@
 					developers since {founded_date}.
 				</p>
 				<div class="flex flex-wrap justify-center gap-4">
-					<a href="/events" class="btn btn-primary"
-						>Join Next Meetup</a
-					>
-					<a href="/community" class="btn btn-outline">Get Involved</a
-					>
+					<a href="/events" class="btn btn-primary">
+						Join Next Meetup
+					</a>
+					<a href="/community" class="btn btn-outline">
+						Get Involved
+					</a>
 				</div>
 			</div>
 		</div>

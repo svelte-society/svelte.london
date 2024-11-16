@@ -14,10 +14,10 @@
 	<LandingHero />
 
 	<!-- Feature Cards -->
-	<div class="px-4 py-24">
+	<div class="px-4 py-12 md:py-16 lg:py-24">
 		<div class="container mx-auto max-w-6xl">
 			<div
-				class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3"
+				class="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-6 lg:grid-cols-3 lg:gap-8"
 			>
 				{#snippet feature_card(
 					badge_text: string,
@@ -34,18 +34,22 @@
 					<div class="badge badge-accent hidden">accent</div>
 
 					<div
-						class="card bg-base-100 shadow-xl transition-shadow hover:shadow-2xl"
+						class="card h-full bg-base-100 shadow-xl transition-shadow hover:shadow-2xl"
 					>
-						<div class="card-body">
+						<div class="card-body p-6 md:p-8">
 							<div
-								class="badge badge-{badge_bg} text-{badge_content} mb-4"
+								class="badge badge-{badge_bg} text-{badge_content} badge-sm mb-4 text-xs font-semibold md:badge-lg md:text-base"
 							>
 								{badge_text}
 							</div>
-							<h2 class="card-title">{title}</h2>
-							<p>{description}</p>
-							<div class="card-actions justify-end">
-								<a href={link} class="btn btn-ghost btn-sm">
+							<h2 class="card-title mb-3 text-xl md:text-2xl">
+								{title}
+							</h2>
+							<p class="flex-grow text-base md:text-lg">
+								{description}
+							</p>
+							<div class="card-actions mt-4 justify-end">
+								<a href={link} class="btn btn-ghost">
 									{cta_text} →
 								</a>
 							</div>
@@ -53,6 +57,7 @@
 					</div>
 				{/snippet}
 
+				<!-- Feature Cards Render -->
 				{@render feature_card(
 					'Monthly Meetups',
 					'primary',
@@ -91,7 +96,7 @@
 		<div class="container mx-auto px-4 text-center">
 			<div class="mx-auto max-w-2xl">
 				<h2 class="mb-6 text-3xl font-bold">Ready to dive in?</h2>
-				<p class="mb-8">
+				<p class="mb-8 text-lg">
 					Whether you're new to Svelte or an experienced developer,
 					our community has a place for you.
 				</p>

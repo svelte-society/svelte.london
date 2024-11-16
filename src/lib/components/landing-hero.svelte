@@ -18,7 +18,7 @@
 								LONDON'S
 							</span>
 							<span
-								class="text-4xl font-black text-primary md:text-5xl lg:text-7xl"
+								class="text-4xl font-black text-[#ff3e00] md:text-5xl lg:text-7xl"
 							>
 								SVELTE
 							</span>
@@ -27,7 +27,7 @@
 							COMMUNITY
 						</span>
 						<span
-							class="mt-1 text-right text-lg font-bold text-error md:text-xl lg:text-2xl"
+							class="mt-1 text-right text-lg font-bold text-[#ff3e00] md:text-xl lg:text-2xl"
 						>
 							EST. 2019
 						</span>
@@ -36,7 +36,7 @@
 						class="mt-3 border-t-2 border-base-content pt-4 md:mt-4 md:pt-7"
 					>
 						<span
-							class="text-lg font-bold text-error md:text-xl lg:text-2xl"
+							class="text-lg font-bold text-[#ff3e00] md:text-xl lg:text-2xl"
 						>
 							CITY OF TECH MEETUPS
 						</span>

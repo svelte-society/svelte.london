@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { page } from '$app/stores';
+
 	const links = [
 		{ href: '/events', label: 'Events' },
 		{ href: '/speak', label: 'Speak' },
@@ -34,7 +36,15 @@
 				class="menu dropdown-content menu-sm z-[1] mt-3 w-52 rounded-box bg-base-100 p-2 shadow"
 			>
 				{#each links as link}
-					<li><a href={link.href}>{link.label}</a></li>
+					<li>
+						<a
+							href={link.href}
+							class:text-primary={$page.url.pathname === link.href}
+							class:underline={$page.url.pathname === link.href}
+						>
+							{link.label}
+						</a>
+					</li>
 				{/each}
 			</ul>
 		</div>
@@ -45,7 +55,15 @@
 	<div class="navbar-end hidden lg:flex">
 		<ul class="menu menu-horizontal px-1">
 			{#each links as link}
-				<li><a href={link.href}>{link.label}</a></li>
+				<li>
+					<a
+						href={link.href}
+						class:text-primary={$page.url.pathname === link.href}
+						class:underline={$page.url.pathname === link.href}
+					>
+						{link.label}
+					</a>
+				</li>
 			{/each}
 		</ul>
 	</div>

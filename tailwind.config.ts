@@ -9,7 +9,9 @@ export default {
 		extend: {},
 	},
 
-	daisyui: {},
+	daisyui: {
+		themes: ['light'],
+	},
 
 	plugins: [typography, daisyui],
 } satisfies Config;

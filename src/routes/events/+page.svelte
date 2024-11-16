@@ -60,7 +60,7 @@
 	<div class="hero bg-base-200 py-12">
 		<div class="hero-content text-center">
 			<div class="max-w-3xl">
-				<div class="prose mx-auto">
+				<div class="all-prose mx-auto prose-ul:text-left">
 					<EventsAbout />
 				</div>
 			</div>
@@ -137,7 +137,7 @@
 	<!-- Attending Options -->
 	<div class="bg-base-200 px-4 py-24">
 		<div class="container mx-auto max-w-4xl">
-			<div class="prose mx-auto mb-16">
+			<div class="all-prose mx-auto mb-16">
 				<EventsAttending />
 			</div>
 

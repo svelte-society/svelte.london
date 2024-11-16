@@ -46,14 +46,17 @@
 			<p
 				class="mx-auto mb-8 max-w-2xl px-4 text-base md:mb-12 md:text-lg lg:text-xl"
 			>
-				Join us monthly for tech talks, networking, and collaborative
-				learning — connecting London's Svelte developers since {founded_date}.
+				We are <span class="font-bold text-[#ff3e00]">
+					Svelte Society London
+				</span>
+				, join us monthly for tech talks, networking and learning — connecting
+				London's Svelte developers since {founded_date}.
 			</p>
 			<div class="flex flex-wrap justify-center gap-3 md:gap-4">
-				<a href="/events" class="btn btn-primary btn-sm md:btn-md">
+				<a href="/events" class="btn btn-primary w-48 btn-sm md:btn-md">
 					Join Next Meetup
 				</a>
-				<a href="/community" class="btn btn-outline btn-sm md:btn-md">
+				<a href="/community" class="btn btn-outline w-48 btn-sm md:btn-md">
 					Get Involved
 				</a>
 			</div>

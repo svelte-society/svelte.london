@@ -11,7 +11,7 @@
 					class="inline-block rounded-xl bg-base-100 p-4 shadow-xl md:p-8"
 				>
 					<h1 class="flex flex-col gap-2 text-left tracking-widest">
-						<div class="space-x-2 md:space-x-4">
+						<div class="flex flex-nowrap space-x-5 whitespace-nowrap">
 							<span
 								class="text-4xl font-black md:text-5xl lg:text-7xl"
 							>
@@ -44,19 +44,25 @@
 				</header>
 			</div>
 			<p
-				class="mx-auto mb-8 max-w-2xl px-4 text-base md:mb-12 md:text-lg lg:text-xl"
+				class="mx-auto mb-8 max-w-2xl px-4 text-lg leading-relaxed md:mb-12 md:text-xl lg:text-2xl lg:leading-relaxed"
 			>
 				We are <span class="font-bold text-[#ff3e00]">
 					Svelte Society London
 				</span>
-				, join us monthly for tech talks, networking and learning — connecting
+				join us monthly for tech talks, networking and learning — connecting
 				London's Svelte developers since {founded_date}.
 			</p>
 			<div class="flex flex-wrap justify-center gap-3 md:gap-4">
-				<a href="/events" class="btn btn-primary w-48 btn-sm md:btn-md">
+				<a
+					href="/events"
+					class="btn btn-primary btn-sm w-48 md:btn-md"
+				>
 					Join Next Meetup
 				</a>
-				<a href="/community" class="btn btn-outline w-48 btn-sm md:btn-md">
+				<a
+					href="/community"
+					class="btn btn-outline btn-sm w-48 md:btn-md"
+				>
 					Get Involved
 				</a>
 			</div>

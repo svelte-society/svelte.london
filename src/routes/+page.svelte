@@ -21,17 +21,25 @@
 			>
 				{#snippet feature_card(
 					badge_text: string,
-					badge_type: string,
+					badge_bg: string,
+					badge_content: string,
 					title: string,
 					description: string,
 					link: string,
 					cta_text: string,
 				)}
+					<!-- static classes added for tailwind -->
+					<div class="badge badge-primary hidden">primary</div>
+					<div class="badge badge-secondary hidden">secondary</div>
+					<div class="badge badge-accent hidden">accent</div>
+
 					<div
 						class="card bg-base-100 shadow-xl transition-shadow hover:shadow-2xl"
 					>
 						<div class="card-body">
-							<div class="badge badge-{badge_type} mb-4">
+							<div
+								class="badge badge-{badge_bg} text-{badge_content} mb-4"
+							>
 								{badge_text}
 							</div>
 							<h2 class="card-title">{title}</h2>
@@ -48,6 +56,7 @@
 				{@render feature_card(
 					'Monthly Meetups',
 					'primary',
+					'primary-content',
 					'In-person Events',
 					`Join ${in_person_range} fellow Svelte developers monthly in central London for talks, networking, and refreshments.`,
 					'/events',
@@ -57,6 +66,7 @@
 				{@render feature_card(
 					'Global Reach',
 					'secondary',
+					'secondary-content',
 					'Online Community',
 					`Connect with ${community_members}+ members worldwide. Live streams, discussions, and collaborative learning.`,
 					'/community',
@@ -66,6 +76,7 @@
 				{@render feature_card(
 					'Resources',
 					'accent',
+					'accent-content',
 					'Knowledge Hub',
 					`Access ${Number(youtube_subscribers).toLocaleString()}+ subscribers worth of Svelte content, with ${average_talk_views}+ views per talk.`,
 					'/speak',
@@ -76,7 +87,7 @@
 	</div>
 
 	<!-- CTA Section -->
-	<div class="bg-base-200 py-24">
+	<div class="py-24">
 		<div class="container mx-auto px-4 text-center">
 			<div class="mx-auto max-w-2xl">
 				<h2 class="mb-6 text-3xl font-bold">Ready to dive in?</h2>
@@ -85,9 +96,9 @@
 					our community has a place for you.
 				</p>
 				<div class="flex flex-wrap justify-center gap-4">
-					<a href="/speak" class="btn btn-primary">Give a Talk</a>
-					<a href="/host" class="btn btn-secondary">Host an Event</a>
-					<a href="/events" class="btn btn-accent">Attend Meetup</a>
+					<a href="/speak" class="btn btn-primary w-24">Talk</a>
+					<a href="/host" class="btn btn-secondary w-24">Host</a>
+					<a href="/events" class="btn btn-accent w-24">Attend</a>
 				</div>
 			</div>
 		</div>

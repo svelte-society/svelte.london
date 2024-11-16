@@ -3,29 +3,60 @@
 	const { founded_date } = stats[0];
 </script>
 
-<div class="hero relative min-h-[80vh] overflow-hidden bg-base-200">
-	<div
-		class="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent"
-	></div>
+<section class="hero relative mt-8 md:mt-16">
 	<div class="hero-content relative z-10 text-center">
 		<div class="max-w-3xl">
-			<h1
-				class="mb-8 bg-gradient-to-r from-primary to-secondary bg-clip-text text-5xl font-bold text-transparent"
+			<div class="relative mb-8 md:mb-12">
+				<header
+					class="inline-block rounded-xl bg-base-100 p-4 shadow-xl md:p-8"
+				>
+					<h1 class="flex flex-col gap-2 text-left tracking-widest">
+						<div class="space-x-2 md:space-x-4">
+							<span
+								class="text-4xl font-black md:text-5xl lg:text-7xl"
+							>
+								LONDON'S
+							</span>
+							<span
+								class="text-4xl font-black text-primary md:text-5xl lg:text-7xl"
+							>
+								SVELTE
+							</span>
+						</div>
+						<span class="text-4xl font-black md:text-5xl lg:text-7xl">
+							COMMUNITY
+						</span>
+						<span
+							class="mt-1 text-right text-lg font-bold text-error md:text-xl lg:text-2xl"
+						>
+							EST. 2019
+						</span>
+					</h1>
+					<div
+						class="mt-3 border-t-2 border-base-content pt-4 md:mt-4 md:pt-7"
+					>
+						<span
+							class="text-lg font-bold text-error md:text-xl lg:text-2xl"
+						>
+							CITY OF TECH MEETUPS
+						</span>
+					</div>
+				</header>
+			</div>
+			<p
+				class="mx-auto mb-8 max-w-2xl px-4 text-base md:mb-12 md:text-lg lg:text-xl"
 			>
-				London's Svelte Community
-			</h1>
-			<p class="mx-auto mb-12 max-w-2xl text-xl">
 				Join us monthly for tech talks, networking, and collaborative
 				learning — connecting London's Svelte developers since {founded_date}.
 			</p>
-			<div class="flex flex-wrap justify-center gap-4">
-				<a href="/events" class="btn btn-primary">
+			<div class="flex flex-wrap justify-center gap-3 md:gap-4">
+				<a href="/events" class="btn btn-primary btn-sm md:btn-md">
 					Join Next Meetup
 				</a>
-				<a href="/community" class="btn btn-outline">
+				<a href="/community" class="btn btn-outline btn-sm md:btn-md">
 					Get Involved
 				</a>
 			</div>
 		</div>
 	</div>
-</div>
+</section>

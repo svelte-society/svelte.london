@@ -6,6 +6,10 @@ technical insights, community networking, and engaging discussions.
 
 ## Event Format
 
+All times are in London time zone.
+
+Event usually follow this format unless otherwise stated:
+
 - 18:30: Doors open, networking begins
 - 19:15: Live stream starts
 - Two technical talks featuring local and remote speakers
@@ -18,7 +22,8 @@ technical insights, community networking, and engaging discussions.
 - Technical insights and practical knowledge
 - Food and refreshments
 - Connection with local and global Svelte enthusiasts
-- Professional live streaming setup
+- Mix of attendees from startups to major organisations
+- Beginner-friendly environment
 
 Whether you're new to Svelte or an experienced developer, our events
 provide valuable learning opportunities and meaningful connections

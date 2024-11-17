@@ -2,7 +2,7 @@
 	let { data } = $props();
 </script>
 
-<div class="container mx-auto max-w-3xl px-4 py-12">
+<div class="container mx-auto max-w-3xl px-4">
 	<small>
 		This is the official Svelte code of conduct taken from
 		<a

@@ -1,4 +1,4 @@
-# Why Host?
+## Why Host?
 
 Hosting Svelte Society London events offers unique opportunities to:
 

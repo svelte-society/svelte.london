@@ -1,6 +1,6 @@
-# Speaking Guidelines
+## Speaking Guidelines
 
-## Talk Formats
+### Talk Formats
 
 - Lightning Talk (20 minutes)
 - Full-Length Talk (20+ minutes)
@@ -8,7 +8,7 @@
 - Case Studies
 - Project Showcases
 
-## Topic Suggestions
+### Topic Suggestions
 
 - Svelte & SvelteKit development
 - Real-world applications and experiences
@@ -21,7 +21,7 @@
 - Server-side rendering
 - Your unique Svelte journey
 
-## Speaker Support
+### Speaker Support
 
 We provide:
 
@@ -29,4 +29,3 @@ We provide:
 - Professional live streaming equipment
 - Engaged audience both in-person and online
 - Recording of your talk shared on YouTube
-- Opportunity to practice your talk beforehand

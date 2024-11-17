@@ -1,4 +1,10 @@
-# How to Submit Your Talk
+## How to Submit Your Talk
+
+Open an
+[issue](https://github.com/svelte-society/london/issues/new/choose) on
+the Svelte Society London GitHub repository.
+
+See previous issues for examples on how to format your submission.
 
 1. Create a GitHub issue in our repository with:
 

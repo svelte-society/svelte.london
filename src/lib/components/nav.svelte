@@ -6,6 +6,7 @@
 		{ href: '/speak', label: 'Speak' },
 		{ href: '/host', label: 'Host' },
 		{ href: '/community', label: 'Community' },
+		{ href: '/code-of-conduct', label: 'Code of Conduct' },
 	];
 </script>
 

@@ -1,6 +1,6 @@
-# Event Format
+## Event Format
 
-## Typical Schedule
+### Typical Schedule
 
 - 18:30-19:15: Arrival and networking
 - 19:15: Live stream begins
@@ -9,7 +9,7 @@
 - Interactive Q&A with both in-person and online audience
 - Wrap up by 21:00
 
-## Community Engagement
+### Community Engagement
 
 Our events are designed to maximize interaction and value for all
 participants. Each session includes dedicated networking time,

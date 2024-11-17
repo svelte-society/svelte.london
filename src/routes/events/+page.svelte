@@ -57,8 +57,8 @@
 
 <div class="min-h-screen bg-base-100">
 	<!-- Hero Section -->
-	<div class="hero bg-base-200 py-12">
-		<div class="hero-content text-center">
+	<div class="hero py-12">
+		<div class="hero-content">
 			<div class="max-w-3xl">
 				<div class="all-prose mx-auto prose-ul:text-left">
 					<EventsAbout />
@@ -70,7 +70,8 @@
 	<!-- Next Event Card -->
 	<div class="bg-base-100 px-4 py-24">
 		<div class="container mx-auto max-w-4xl">
-			<h2 class="mb-12 text-center text-3xl font-bold">Next Event</h2>
+			<h2 class="mb-12 text-3xl font-bold">Next Event</h2>
+			
 			<div class="card bg-primary text-primary-content">
 				<div class="card-body">
 					<div
@@ -135,7 +136,7 @@
 	</div>
 
 	<!-- Attending Options -->
-	<div class="bg-base-200 px-4 py-24">
+	<div class="px-4 py-24">
 		<div class="container mx-auto max-w-4xl">
 			<div class="all-prose mx-auto mb-16">
 				<EventsAttending />
@@ -181,7 +182,7 @@
 	<!-- Past Events -->
 	<div class="bg-base-100 px-4 py-24">
 		<div class="container mx-auto max-w-4xl">
-			<h2 class="mb-12 text-center text-3xl font-bold">
+			<h2 class="mb-12 text-3xl font-bold">
 				Previous Events
 			</h2>
 			<div class="flex justify-center">
@@ -201,7 +202,7 @@
 				</div>
 			</div>
 
-			<div class="mt-12 text-center">
+			<div class="mt-12">
 				<a
 					href="https://youtube.com/@SvelteSociety"
 					class="btn btn-wide"
@@ -215,9 +216,9 @@
 	</div>
 
 	<!-- RSVP Form -->
-	<div class="bg-base-200 px-4 py-24" id="rsvp">
+	<div class="px-4 py-24" id="rsvp">
 		<div class="container mx-auto max-w-md">
-			<h2 class="mb-12 text-center text-3xl font-bold">
+			<h2 class="mb-12 text-3xl font-bold">
 				RSVP for Next Event
 			</h2>
 			<div class="card bg-base-100 shadow-xl">

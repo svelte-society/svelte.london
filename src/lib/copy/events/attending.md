@@ -1,19 +1,20 @@
-# Attending Our Events
+# Join Us Your Way
 
 ## In Person
 
-- Doors open at 18:30
-- Plenty of time for networking before talks begin
-- Food and refreshments available
-- Direct interaction with speakers and community members
 - Central London locations (varies by host)
+- Network face-to-face with the community
+- Enjoy food and refreshments
+- Interact directly with speakers
+- Participate in live Q&A sessions
+- Doors open at 18:30
 
 ## Online
 
-- Live stream starts at 19:15
-- Interactive chat during presentations
-- Q&A participation
-- Recordings available after the event
+- Join our professional live stream at 19:15
+- Engage through interactive chat
+- Participate in Q&A sessions
+- Access recordings after the event
 - Join our YouTube channel for notifications
 
 ## Code of Conduct

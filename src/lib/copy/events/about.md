@@ -1,19 +1,25 @@
 # Svelte Society London Events
 
 Our monthly meetups combine in-person connection with global reach
-through live streaming. Each event features technical talks, community
-networking, and opportunities to engage with both local and remote
-participants.
+through live streaming. We gather in central London for an evening of
+technical insights, community networking, and engaging discussions.
+
+## Event Format
+
+- 18:30: Doors open, networking begins
+- 19:15: Live stream starts
+- Two technical talks featuring local and remote speakers
+- Interactive Q&A sessions
+- Wrap up by 21:00
 
 ## What to Expect
 
 - Welcoming community atmosphere
 - Technical insights and practical knowledge
-- Networking with fellow Svelte enthusiasts
-- Q&A sessions with speakers
-- Connection with the global Svelte community
 - Food and refreshments
+- Connection with local and global Svelte enthusiasts
+- Professional live streaming setup
 
 Whether you're new to Svelte or an experienced developer, our events
-provide valuable learning opportunities and connections with
-like-minded developers.
+provide valuable learning opportunities and meaningful connections
+with like-minded developers.

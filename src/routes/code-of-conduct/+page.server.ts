@@ -1,5 +1,5 @@
-import type { PageServerLoad } from './$types';
 import { marked } from 'marked';
+import type { PageServerLoad } from './$types';
 
 export const load: PageServerLoad = async () => {
 	const response = await fetch(
@@ -13,9 +13,6 @@ export const load: PageServerLoad = async () => {
 	const markdown = await response.text();
 	const html = marked(markdown);
 
-	console.log('=====================');
-	console.log(html);
-	console.log('=====================');
 	return {
 		html,
 	};

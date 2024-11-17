@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { stats } from '$lib/stats';
+	import { Head, type SeoConfig } from 'svead';
 
 	import {
 		Format,
@@ -50,7 +51,15 @@
 			icon: '🤝',
 		},
 	];
+
+	const seo_config: SeoConfig = {
+		title: 'Host Svelte Society London',
+		description: 'Support the Svelte community in London.',
+		url: 'https://svelte.london/host',
+	};
 </script>
+
+<Head {seo_config} />
 
 <!-- Hero Section -->
 <div class="all-prose mx-auto mb-12 max-w-3xl">

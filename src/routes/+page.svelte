@@ -1,14 +1,23 @@
 <script lang="ts">
 	import { LandingHero } from '$lib/components';
 	import { stats } from '$lib/stats';
+	import { Head, type SeoConfig } from 'svead';
+
 	const {
 		in_person_range,
 		youtube_subscribers,
 		community_members,
-		founded_date,
 		average_talk_views,
 	} = stats[0];
+
+	const seo_config: SeoConfig = {
+		title: 'Svelte Society London',
+		description: 'A community for Svelte developers in London.',
+		url: 'https://svelte.london',
+	};
 </script>
+
+<Head {seo_config} />
 
 <div class="min-h-screen">
 	<LandingHero />

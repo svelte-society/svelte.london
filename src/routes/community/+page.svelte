@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { CommunityIntro, GetInvolved } from '$lib/copy';
 	import { stats } from '$lib/stats';
+	import { Head, type SeoConfig } from 'svead';
 
 	const {
 		community_members,
@@ -36,7 +37,15 @@
 			link: 'https://discord.gg/svelte',
 		},
 	];
+
+	const seo_config: SeoConfig = {
+		title: 'Svelte Society London Community',
+		description: 'Join the Svelte community in London.',
+		url: 'https://svelte.london/community',
+	};
 </script>
+
+<Head {seo_config} />
 
 <!-- Hero Section -->
 <div class="all-prose mx-auto mb-12 max-w-3xl">

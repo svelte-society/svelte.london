@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { EventsAbout, EventsAttending } from '$lib/copy';
+	import { Head, type SeoConfig } from 'svead';
 
 	const attending_options = [
 		{
@@ -25,10 +26,18 @@
 			cta: 'Join Stream',
 		},
 	];
+
+	const seo_config: SeoConfig = {
+		title: 'Svelte Society London Events',
+		description:
+			'Join us for talks, workshops, and networking in London.',
+		url: 'https://svelte.london/events',
+	};
 </script>
 
-<!-- Hero Section -->
+<Head {seo_config} />
 
+<!-- Hero Section -->
 <div class="all-prose mx-auto mb-12 max-w-3xl">
 	<EventsAbout />
 </div>

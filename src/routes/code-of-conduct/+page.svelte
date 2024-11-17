@@ -1,6 +1,17 @@
 <script lang="ts">
+	import { Head, type SeoConfig } from 'svead';
+
 	let { data } = $props();
+
+	const seo_config: SeoConfig = {
+		title: 'Svelte Society London Code of Conduct',
+		description:
+			'The code of conduct for the Svelte community in London.',
+		url: 'https://svelte.london/code-of-conduct',
+	};
 </script>
+
+<Head {seo_config} />
 
 <div class="container mx-auto max-w-3xl px-4">
 	<small>

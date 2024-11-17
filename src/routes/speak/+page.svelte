@@ -5,6 +5,7 @@
 		SubmissionProcess,
 	} from '$lib/copy';
 	import { stats } from '$lib/stats';
+	import { Head, type SeoConfig } from 'svead';
 
 	const {
 		in_person_range,
@@ -45,7 +46,15 @@
 			icon: '⭐',
 		},
 	];
+
+	const seo_config: SeoConfig = {
+		title: 'Speak at Svelte Society London',
+		description: 'Share your Svelte knowledge with the community.',
+		url: 'https://svelte.london/speak',
+	};
 </script>
+
+<Head {seo_config} />
 
 <div class="all-prose mx-auto mb-12 max-w-3xl">
 	<SpeakIntro />

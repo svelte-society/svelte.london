@@ -1,8 +1,8 @@
-# Join Us Your Way
+## Join Us Your Way
 
 All times are in London time zone.
 
-## In Person
+### In Person
 
 - Central London locations (varies by host)
 - Network face-to-face with the community
@@ -11,7 +11,7 @@ All times are in London time zone.
 - Participate in live Q&A sessions
 - Doors open at 18:30
 
-## Online
+### Online
 
 - Join our live stream at 19:15
 - Engage through interactive chat
@@ -20,7 +20,7 @@ All times are in London time zone.
 - Join our YouTube channel for notifications
 - Continue discussions in Svelte Discord
 
-## Code of Conduct
+### Code of Conduct
 
 All attendees, speakers, and organizers are required to follow our
 [code of conduct](./code-of-conduct). We're committed to providing a

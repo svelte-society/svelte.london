@@ -2,6 +2,7 @@
 	import { stats } from '$lib/stats';
 	import { Head, type SeoConfig } from 'svead';
 
+	import { Timeline } from '$lib/components';
 	import {
 		Format,
 		HostIntro,
@@ -98,113 +99,8 @@
 	<Format />
 </div>
 
-<div class="px-4 py-24">
-	<div class="container mx-auto max-w-4xl">
-		<div class="prose mx-auto mb-12"></div>
-
-		<!-- Timeline -->
-		<div class="mx-auto flex max-w-xl flex-col">
-			<ul class="timeline timeline-vertical">
-				<li>
-					<div class="timeline-start timeline-box">
-						18:30 - Doors Open
-					</div>
-					<div class="timeline-middle">
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							viewBox="0 0 20 20"
-							fill="currentColor"
-							class="h-5 w-5"
-						>
-							<path
-								fill-rule="evenodd"
-								d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-								clip-rule="evenodd"
-							/>
-						</svg>
-					</div>
-					<div class="timeline-end">Networking & Refreshments</div>
-				</li>
-				<li>
-					<div class="timeline-start timeline-box">
-						19:15 - Live Stream Starts
-					</div>
-					<div class="timeline-middle">
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							viewBox="0 0 20 20"
-							fill="currentColor"
-							class="h-5 w-5"
-							><path
-								fill-rule="evenodd"
-								d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-								clip-rule="evenodd"
-							/></svg
-						>
-					</div>
-					<div class="timeline-end">Welcome & Host Introduction</div>
-				</li>
-				<li>
-					<div class="timeline-start timeline-box">
-						19:30 - First Talk
-					</div>
-					<div class="timeline-middle">
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							viewBox="0 0 20 20"
-							fill="currentColor"
-							class="h-5 w-5"
-							><path
-								fill-rule="evenodd"
-								d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-								clip-rule="evenodd"
-							/></svg
-						>
-					</div>
-					<div class="timeline-end">Technical Presentation</div>
-				</li>
-				<li>
-					<div class="timeline-start timeline-box">
-						20:15 - Second Talk
-					</div>
-					<div class="timeline-middle">
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							viewBox="0 0 20 20"
-							fill="currentColor"
-							class="h-5 w-5"
-							><path
-								fill-rule="evenodd"
-								d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-								clip-rule="evenodd"
-							/></svg
-						>
-					</div>
-					<div class="timeline-end">Technical Presentation</div>
-				</li>
-				<li>
-					<div class="timeline-start timeline-box">
-						20:45 - Wrap Up
-					</div>
-					<div class="timeline-middle">
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							viewBox="0 0 20 20"
-							fill="currentColor"
-							class="h-5 w-5"
-							><path
-								fill-rule="evenodd"
-								d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-								clip-rule="evenodd"
-							/></svg
-						>
-					</div>
-					<div class="timeline-end">Networking Continues</div>
-				</li>
-			</ul>
-		</div>
-	</div>
-</div>
+<!-- Timeline -->
+<Timeline />
 
 <!-- Value Proposition -->
 <div class="all-prose mx-auto mb-12 max-w-3xl">

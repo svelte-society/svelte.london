@@ -42,20 +42,13 @@
 	<EventsAbout />
 </div>
 
-<!-- Next Event Card -->
-<div class="all-prose mx-auto max-w-3xl">
-	<h2>Next Event</h2>
-	<p>
-		We use Guild for our event coordination, you can see previous and
-		upcoming events there.
-	</p>
-</div>
+<!-- Next Event CTA -->
 <div class="mx-auto mb-12 max-w-3xl">
 	<a
 		href="https://guild.host/svelte-society-london/events"
 		target="_blank"
 		rel="noopener noreferrer"
-		class="btn btn-primary btn-block"
+		class="btn btn-primary btn-lg btn-block"
 	>
 		Check Svelte Society London on Guild
 	</a>

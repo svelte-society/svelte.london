@@ -28,3 +28,8 @@ Event usually follow this format unless otherwise stated:
 Whether you're new to Svelte or an experienced developer, our events
 provide valuable learning opportunities and meaningful connections
 with like-minded developers.
+
+## Next Event
+
+We use Guild for our event coordination, you can see previous and
+upcoming events there.

@@ -22,7 +22,7 @@ ecosystem.
 
 ## What We Handle
 
-- Professional live streaming setup and management
+- Live streaming setup and management
 - Event coordination and volunteer staff (2-4 people)
 - Speaker arrangements and scheduling
 - Food and drinks (unless you'd like to provide them)

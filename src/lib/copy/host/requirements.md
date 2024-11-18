@@ -1,5 +1,8 @@
 ## What We Need
 
+Over the years of running the events we have become very
+self-sufficient and can handle most of the logistics.
+
 ### Essential Requirements
 
 - Space to accommodate 20-60 people comfortably
@@ -16,7 +19,7 @@
 
 ### What We Handle
 
-- Professional live streaming setup and management
+- Live streaming setup and management
 - Event coordination and volunteer staff (2-4 people)
 - Speaker arrangements and scheduling
 - Technical equipment including microphones

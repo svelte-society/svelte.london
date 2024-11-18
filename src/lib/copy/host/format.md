@@ -1,5 +1,8 @@
 ## Event Format
 
+We have settled on the following format for our events which allows
+for attendees to socialise and network before the event starts.
+
 ### Typical Schedule
 
 - 18:30-19:15: Arrival and networking

@@ -116,10 +116,7 @@
 			community.
 		</p>
 		<div class="flex justify-center gap-4">
-			<a
-				href="mailto:london@sveltesociety.dev"
-				class="btn btn-primary"
-			>
+			<a href="mailto:hello@svelte.london" class="btn btn-primary">
 				Contact Us
 			</a>
 			<a href="/events" class="btn btn-outline">Attend First</a>

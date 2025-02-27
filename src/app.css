@@ -1,36 +1,63 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@import 'tailwindcss';
 
-html {
-	scroll-behavior: smooth;
-	word-break: break-word;
+@layer base {
+	html {
+		scroll-behavior: smooth;
+		word-break: break-word;
+	}
+
+	::selection {
+		color: var(--color-primary-content);
+		background: var(--color-primary);
+	}
+
+	/* Scrollbar styles using modern syntax */
+	* {
+		scrollbar-width: thin;
+		scrollbar-color: var(--color-secondary) var(--color-primary) !important;
+	}
+
+	::-webkit-scrollbar-track {
+		background: var(--color-primary) !important;
+	}
+
+	::-webkit-scrollbar-thumb {
+		background-color: var(--color-secondary) !important;
+	}
 }
 
-::selection {
-	color: oklch(var(--pc));
-	background: oklch(var(--p));
+/* Custom components */
+@layer components {
+	.all-prose {
+		@apply prose prose-lg lg:prose-xl prose-headings:scroll-mt-16 prose-a:text-primary prose-a:transition prose-a:hover:text-accent max-w-none;
+
+		/* remove derp backticks from prose */
+		:where(code):not(:where([class~='not-prose'] *, pre *)) {
+			font-family: 'Victor Mono Variable', monospace;
+			padding: 1px 8px;
+			border-radius: var(--radius-selector);
+			font-weight: initial;
+			background-color: var(
+				--fallback-bc,
+				color-mix(
+					in oklab,
+					var(--color-base-content),
+					transparent 90%
+				)
+			);
+		}
+
+		/* Remove code markers */
+		:where(code):not(:where([class~='not-prose'] *, pre *))::before,
+		:where(code):not(:where([class~='not-prose'] *, pre *))::after {
+			content: '' !important;
+			display: none !important;
+		}
+	}
 }
 
-.all-prose {
-	@apply prose prose-lg lg:prose-xl prose-headings:scroll-mt-16 prose-a:text-primary prose-a:transition hover:prose-a:text-accent;
-}
-
-/* 
-Scrollbar styles:
-	scrollbar-color Two valid colors. thumb and track
-	scrollbar-gutter padding when there's no scrollbar
-	scrollbar-width auto | thin | none
-*/
-* {
-	scrollbar-width: thin;
-	scrollbar-color: oklch(var(--s)) oklch(var(--p)) !important;
-}
-
-::-webkit-scrollbar-track {
-	background: oklch(var(--p));
-}
-
-::-webkit-scrollbar-thumb {
-	background-color: oklch(var(--s));
+/* Plugin configurations */
+@plugin "@tailwindcss/typography";
+@plugin "daisyui" {
+	themes: light --default;
 }

@@ -43,11 +43,11 @@
 					<div class="badge badge-accent hidden">accent</div>
 
 					<div
-						class="card h-full bg-base-100 shadow-xl transition-shadow hover:shadow-2xl"
+						class="card bg-base-100 h-full shadow-xl transition-shadow hover:shadow-2xl"
 					>
 						<div class="card-body p-6 md:p-8">
 							<div
-								class="badge badge-{badge_bg} text-{badge_content} badge-sm mb-4 text-xs font-semibold md:badge-lg md:text-base"
+								class="badge badge-{badge_bg} text-{badge_content} badge-sm md:badge-lg mb-4 text-xs font-semibold md:text-base"
 							>
 								{badge_text}
 							</div>

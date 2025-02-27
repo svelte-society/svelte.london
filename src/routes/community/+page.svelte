@@ -56,7 +56,7 @@
 <div class="bg-base-100 px-4 py-16">
 	<div class="container mx-auto max-w-5xl">
 		<div
-			class="stats stats-vertical w-full shadow lg:stats-horizontal"
+			class="stats stats-vertical lg:stats-horizontal w-full shadow"
 		>
 			<div class="stat">
 				<div class="stat-title">Founded</div>

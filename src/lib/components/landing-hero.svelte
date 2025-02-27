@@ -8,7 +8,7 @@
 		<div class="max-w-3xl">
 			<div class="relative mb-8 md:mb-12">
 				<header
-					class="inline-block rounded-xl bg-base-100 p-4 shadow-xl md:p-8"
+					class="bg-base-100 inline-block rounded-xl p-4 shadow-xl md:p-8"
 				>
 					<h1 class="flex flex-col gap-2 text-left tracking-widest">
 						<div class="flex flex-nowrap space-x-5 whitespace-nowrap">
@@ -33,7 +33,7 @@
 						</span>
 					</h1>
 					<div
-						class="mt-3 border-t-2 border-base-content pt-4 md:mt-4 md:pt-7"
+						class="border-base-content mt-3 border-t-2 pt-4 md:mt-4 md:pt-7"
 					>
 						<span
 							class="text-lg font-bold text-[#ff3e00] md:text-xl lg:text-2xl"
@@ -58,13 +58,13 @@
 			<div class="flex flex-wrap justify-center gap-3 md:gap-7">
 				<a
 					href="/events"
-					class="btn btn-primary btn-md w-52 md:btn-lg"
+					class="btn btn-primary btn-md md:btn-lg w-52"
 				>
 					Join Next Meetup
 				</a>
 				<a
 					href="/community"
-					class="btn btn-outline btn-md w-52 md:btn-lg"
+					class="btn btn-outline btn-md md:btn-lg w-52"
 				>
 					Get Involved
 				</a>

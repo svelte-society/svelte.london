@@ -56,7 +56,7 @@
 <div class="bg-base-100 px-4 py-16">
 	<div class="container mx-auto max-w-5xl">
 		<div
-			class="stats stats-vertical lg:stats-horizontal w-full shadow"
+			class="stats w-full stats-vertical shadow lg:stats-horizontal"
 		>
 			<div class="stat">
 				<div class="stat-title">Founded</div>
@@ -103,7 +103,7 @@
 						<h3 class="card-title">{activity.title}</h3>
 						<p>{activity.description}</p>
 						<div class="card-actions justify-end">
-							<a href={activity.link} class="btn btn-primary btn-sm"
+							<a href={activity.link} class="btn btn-sm btn-primary"
 								>Learn More</a
 							>
 						</div>
@@ -124,7 +124,7 @@
 		href="https://guild.host/svelte-society-london/events"
 		target="_blank"
 		rel="noopener noreferrer"
-		class="btn btn-primary btn-block"
+		class="btn btn-block btn-primary"
 	>
 		Join the Svelte Society London Guild
 	</a>

@@ -3,12 +3,12 @@
 	const { founded_date } = stats[0];
 </script>
 
-<section class="hero relative mt-8 md:mt-16">
-	<div class="hero-content relative z-10 text-center">
+<section class="relative hero mt-8 md:mt-16">
+	<div class="relative hero-content z-10 text-center">
 		<div class="max-w-3xl">
 			<div class="relative mb-8 md:mb-12">
 				<header
-					class="bg-base-100 inline-block rounded-xl p-4 shadow-xl md:p-8"
+					class="inline-block rounded-xl bg-base-100 p-4 shadow-xl md:p-8"
 				>
 					<h1 class="flex flex-col gap-2 text-left tracking-widest">
 						<div class="flex flex-nowrap space-x-5 whitespace-nowrap">
@@ -33,7 +33,7 @@
 						</span>
 					</h1>
 					<div
-						class="border-base-content mt-3 border-t-2 pt-4 md:mt-4 md:pt-7"
+						class="mt-3 border-t-2 border-base-content pt-4 md:mt-4 md:pt-7"
 					>
 						<span
 							class="text-lg font-bold text-[#ff3e00] md:text-xl lg:text-2xl"
@@ -58,13 +58,13 @@
 			<div class="flex flex-wrap justify-center gap-3 md:gap-7">
 				<a
 					href="/events"
-					class="btn btn-primary btn-md md:btn-lg w-52"
+					class="btn w-52 btn-md btn-primary md:btn-lg"
 				>
 					Join Next Meetup
 				</a>
 				<a
 					href="/community"
-					class="btn btn-outline btn-md md:btn-lg w-52"
+					class="btn w-52 btn-outline btn-md md:btn-lg"
 				>
 					Get Involved
 				</a>

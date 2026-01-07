@@ -25,10 +25,7 @@ const config = {
 		}),
 	],
 
-	kit: {
-		adapter: adapter(),
-	},
-
+	kit: { adapter: adapter() },
 	extensions: ['.svelte', '.md'],
 };
 

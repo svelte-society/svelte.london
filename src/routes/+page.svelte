@@ -38,26 +38,26 @@
 					cta_text: string,
 				)}
 					<!-- static classes added for tailwind -->
-					<div class="badge badge-primary hidden">primary</div>
-					<div class="badge badge-secondary hidden">secondary</div>
-					<div class="badge badge-accent hidden">accent</div>
+					<div class="badge hidden badge-primary">primary</div>
+					<div class="badge hidden badge-secondary">secondary</div>
+					<div class="badge hidden badge-accent">accent</div>
 
 					<div
-						class="card bg-base-100 h-full shadow-xl transition-shadow hover:shadow-2xl"
+						class="card h-full bg-base-100 shadow-xl transition-shadow hover:shadow-2xl"
 					>
 						<div class="card-body p-6 md:p-8">
 							<div
-								class="badge badge-{badge_bg} text-{badge_content} badge-sm md:badge-lg mb-4 text-xs font-semibold md:text-base"
+								class="badge badge-{badge_bg} text-{badge_content} mb-4 text-xs badge-sm font-semibold md:text-base md:badge-lg"
 							>
 								{badge_text}
 							</div>
-							<h2 class="card-title mb-3 text-xl md:text-2xl">
+							<h2 class="mb-3 card-title text-xl md:text-2xl">
 								{title}
 							</h2>
-							<p class="flex-grow text-base md:text-lg">
+							<p class="grow text-base md:text-lg">
 								{description}
 							</p>
-							<div class="card-actions mt-4 justify-end">
+							<div class="mt-4 card-actions justify-end">
 								<a href={link} class="btn btn-ghost">
 									{cta_text} →
 								</a>
@@ -110,9 +110,9 @@
 					our community has a place for you.
 				</p>
 				<div class="flex flex-wrap justify-center gap-4">
-					<a href="/speak" class="btn btn-primary w-24">Talk</a>
-					<a href="/host" class="btn btn-secondary w-24">Host</a>
-					<a href="/events" class="btn btn-accent w-24">Attend</a>
+					<a href="/speak" class="btn w-24 btn-primary">Talk</a>
+					<a href="/host" class="btn w-24 btn-secondary">Host</a>
+					<a href="/events" class="btn w-24 btn-accent">Attend</a>
 				</div>
 			</div>
 		</div>

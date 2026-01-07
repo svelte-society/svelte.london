@@ -32,7 +32,7 @@
 <div class="relative mx-auto mb-24 max-w-4xl py-12">
 	<!-- Vertical Line - Centred on desktop, left-aligned on mobile -->
 	<div
-		class="bg-base-300 absolute left-4 h-full w-0.5 md:left-1/2 md:-translate-x-1/2"
+		class="absolute left-4 h-full w-0.5 bg-base-300 md:left-1/2 md:-translate-x-1/2"
 	></div>
 
 	<!-- Timeline Items -->
@@ -43,7 +43,7 @@
 				<div
 					class="absolute left-4 z-10 -translate-x-1/2 md:left-1/2"
 				>
-					<div class="bg-primary h-3 w-3 rounded-full"></div>
+					<div class="h-3 w-3 rounded-full bg-primary"></div>
 				</div>
 
 				<!-- Content -->
@@ -54,7 +54,7 @@
 							<div class="card bg-base-100 shadow-lg">
 								<div class="card-body p-4 text-xl">
 									<div class="flex items-center gap-2">
-										<span class="text-primary font-bold">
+										<span class="font-bold text-primary">
 											{item.time}
 										</span>
 										<span class="text-base-content/60">-</span>
@@ -74,9 +74,9 @@
 							<div class="card bg-base-100 shadow-lg">
 								<div class="card-body p-4 text-xl">
 									<div class="flex items-center gap-2">
-										<span class="text-primary font-bold"
-											>{item.time}</span
-										>
+										<span class="font-bold text-primary">
+											{item.time}
+										</span>
 										<span class="text-base-content/60">-</span>
 										<span class="font-bold">{item.title}</span>
 									</div>

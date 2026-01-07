@@ -1,11 +1,14 @@
 <script lang="ts">
+	import favicon from '$lib/assets/favicon.svg';
 	import { Nav } from '$lib/components';
-	import '../app.css';
+	import './layout.css';
 
 	let { children } = $props();
 </script>
 
-<main class="container mx-auto max-w-5xl flex-grow px-4">
+<svelte:head><link rel="icon" href={favicon} /></svelte:head>
+
+<main class="container mx-auto max-w-5xl grow px-4">
 	<Nav />
 	{@render children()}
 </main>

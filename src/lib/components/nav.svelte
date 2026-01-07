@@ -10,7 +10,7 @@
 	];
 </script>
 
-<div class="navbar bg-base-100 mb-12">
+<div class="navbar mb-12 bg-base-100">
 	<div class="navbar-start">
 		<div class="dropdown">
 			<!-- svelte-ignore a11y_label_has_associated_control -->
@@ -34,7 +34,7 @@
 			<!-- svelte-ignore a11y_no_noninteractive_tabindex -->
 			<ul
 				tabindex="0"
-				class="menu dropdown-content menu-sm rounded-box bg-base-100 z-[1] mt-3 w-52 p-2 shadow"
+				class="dropdown-content menu z-1 mt-3 w-52 menu-sm rounded-box bg-base-100 p-2 shadow"
 			>
 				{#each links as link}
 					<li>
@@ -49,7 +49,7 @@
 				{/each}
 			</ul>
 		</div>
-		<a href="/" class="btn btn-ghost text-xl normal-case">
+		<a href="/" class="btn text-xl normal-case btn-ghost">
 			Svelte Society London
 		</a>
 	</div>
